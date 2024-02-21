@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .vertical-center {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Mi Portafolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#acerca-de">Acerca de mí</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#habilidades">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portafolio">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Acerca de mí -->
+<section id="acerca-de" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Acerca de mí</h2>
+        <div class="row">
+            <!-- Columna izquierda -->
+            <div class="col-md-6 vertical-center">
+                <div>
+                    <h3>Jose Carlos Lozada</h3>
+                    <p>Estudiante de la carrera de Ingenieria de Sistemas, tengo 20 años, salí bachiller
+                        del colegio La Salle de Cochabamba el año 2020. Algunos de mis hobbies son hacer deporte, como fútbol o
+                        baloncesto, y tambien los videojuegos. </p>
+                </div>
+            </div>
+            <!-- Columna derecha -->
+            <div class="col-md-6 text-center">
+                <img src="img/perfil.jpg" alt="Mi Foto" class="img rounded-circle" height="450">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Habilidades -->
+<section id="habilidades" class="py-5">
+    <div class="container text-center">
+        <h2>Habilidades</h2>
+        <!-- Primera fila -->
+        <div class="row mt-4">
+            <!-- Columna 1 -->
+            <div class="col-md-6">
+                <img src="img/css.png" alt="Habilidad 1" class="img-fluid mx-auto d-block mb-3" style="max-width: 150px;">
+            </div>
+            <!-- Columna 2 -->
+            <div class="col-md-6 horizontal-center">
+                <h3>CSS</h3>
+                <p> Conocimiento intermedio </p>
+            </div>
+        </div>
+        <!-- Segunda fila -->
+        <div class="row mt-4">
+            <!-- Columna 1 -->
+            <div class="col-md-6">
+                <img src="img/html.png" alt="Habilidad 2" class="img-fluid mx-auto d-block mb-3" style="max-width: 150px;">
+            </div>
+            <!-- Columna 2 -->
+            <div class="col-md-6 horizontal-center">
+                <h3>HTML</h3>
+                <p> Conocimiento avanzado </p>
+            </div>
+        </div>
+        <!-- Tercera fila -->
+        <div class="row mt-4">
+            <!-- Columna 1 -->
+            <div class="col-md-6">
+                <img src="img/js.png" alt="Habilidad 3" class="img-fluid mx-auto d-block mb-3" style="max-width: 150px;">
+            </div>
+            <!-- Columna 2 -->
+            <div class="col-md-6 horizontal-center">
+                <h3>JavaScript</h3>
+                <p> Conocimiento Intermedio </p>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Columna 1 -->
+            <div class="col-md-6">
+                <img src="img/c++.png" alt="Habilidad 3" class="img-fluid mx-auto d-block mb-3" style="max-width: 150px;">
+            </div>
+            <!-- Columna 2 -->
+            <div class="col-md-6 horizontal-center">
+                <h3>C++</h3>
+                <p> Conocimiento Avanzado </p>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Columna 1 -->
+            <div class="col-md-6">
+                <img src="img/python.png" alt="Habilidad 3" class="img-fluid mx-auto d-block mb-3" style="max-width: 150px;">
+            </div>
+            <!-- Columna 2 -->
+            <div class="col-md-6 horizontal-center">
+                <h3 >Python</h3>
+                <p> Conocimiento intermedio </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portafolio -->
+<section id="portafolio" class="py-5">
+    <div class="container text-center">
+        <h2>Portafolio</h2>
+        <div class="row mt-4">
+            <!-- Columna 1 -->
+            <div class="col-md-4">
+                <h4>Sistema de gestión de productos de Cafetería UCB</h4>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="window.open('https://github.com/JoseCarlosLP/PROYECTO-FINAL-CAFE', '_blank')">Ver</button>
+            </div>
+            <!-- Columna 2 -->
+            <div class="col-md-4">
+                <h4>Sistema de gestión de pedidos de Plaza de Comidas</h4>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="window.open('https://github.com/MrJamt/Proyecto-Final-TecWeb', '_blank')">Ver</button>
+            </div>
+            <!-- Columna 3 -->
+            <div class="col-md-4">
+                <h4>Sistema de Riego automatico integrado con ALEXA</h4>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="window.open('https://github.com/JoseCarlosLP/ProyectoFinal-IoT', '_blank')">Ver</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--&lt;!&ndash; Servicios &ndash;&gt;-->
+<!--<section id="servicios" class="py-5">-->
+<!--    <div class="container text-center">-->
+<!--        <h2>Servicios</h2>-->
+<!--        <div class="row mt-4">-->
+<!--            &lt;!&ndash; Columna 1 &ndash;&gt;-->
+<!--            <div class="col-md-4">-->
+<!--                <img src="servicio1.jpg" alt="Servicio 1" class="img-fluid mx-auto d-block mb-3" style="max-width: 250px;">-->
+<!--                <h4>Servicio 1</h4>-->
+<!--                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
+<!--                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver</button>-->
+<!--            </div>-->
+<!--            &lt;!&ndash; Columna 2 &ndash;&gt;-->
+<!--            <div class="col-md-4">-->
+<!--                <img src="servicio2.jpg" alt="Servicio 2" class="img-fluid mx-auto d-block mb-3" style="max-width: 250px;">-->
+<!--                <h4>Servicio 2</h4>-->
+<!--                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
+<!--                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver</button>-->
+<!--            </div>-->
+<!--            &lt;!&ndash; Columna 3 &ndash;&gt;-->
+<!--            <div class="col-md-4">-->
+<!--                <img src="servicio3.jpg" alt="Servicio 3" class="img-fluid mx-auto d-block mb-3" style="max-width: 250px;">-->
+<!--                <h4>Servicio 3</h4>-->
+<!--                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
+<!--                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver</button>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+
+<!-- Contacto -->
+<section id="contacto" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contacto</h2>
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="asunto">Asunto</label>
+                        <input type="text" id="asunto" name="asunto" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>Derechos de autor © 2024 Jose Carlos Lozada. Todos los derechos reservados.</p>
+</footer>
+
+<!-- Scripts de Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
